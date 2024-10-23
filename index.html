@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trivia Game</title>
+  <style>
+    #question-display, #category-selection, #game-end {
+      display: none;
+    }
+    button {
+      margin: 5px;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="player-setup">
+    <h2>Enter Player Names</h2>
+    <input type="text" id="player1-name" placeholder="Player 1 Name">
+    <input type="text" id="player2-name" placeholder="Player 2 Name">
+    <button onclick="startGame()">Start Game</button>
+  </div>
+
+  <div id="category-selection">
+    <h2>Select a Category</h2>
+    <select id="category-list"></select>
+    <button onclick="selectCategory()">Select Category</button>
+  </div>
+<div id="loading-message" style="display:none">
+  loading questions, please wait....
+</div>
+  <div id="question-display">
+    <div id="timer">Time left: 15s</div>
+    <h2 id="question-text"></h2>
+    <div id="options"></div>
+    <div id="scoreboard">
+      <div id="player1-score"></div>
+      <div id="player2-score"></div>
+    </div>
+  </div>
+
+  <div id="game-end">
+    <h2 id="winner-text"></h2>
+    <button onclick="window.location.reload()">Play Again</button>
+  </div>
+  
+  <div id="round-end-menu" style="display: none;">
+    <h3>What would you like to do?</h3>
+    <button onclick="selectAnotherCategory()">Select Another Category</button>
+    <button onclick="endGame()">End the Game</button>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #4CAF50;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Player Setup Section */
+  #player-setup {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  #player-setup input {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #player-setup button {
+    margin-top: 10px;
+  }
+  
+  /* Category Selection Section */
+  #category-selection {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  #category-list {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Question Display Section */
+  #question-display {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  #question-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #options {
+    margin: 20px 0;
+  }
+  
+  #options button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #f1f1f1;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #options button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Timer */
+  #timer {
+    font-size: 18px;
+    color: #e74c3c;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Scoreboard */
+  #scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  #scoreboard div {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* End Game Section */
+  #game-end {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  #game-end button {
+    margin-top: 20px;
+  }
+  
+  #winner-text {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+  }
